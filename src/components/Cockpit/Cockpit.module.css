@@ -1,0 +1,35 @@
+.Cockpit {
+    text-align: center;
+  }
+
+.red {
+    color: red;
+  }
+  
+  .bigger {
+    font-size: 100px;
+  }
+  
+  .Cockpit button {
+    background-color: green;
+    font: inherit;
+    border: 1px solid blue;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .Cockpit button:hover {
+    background-color: lightgreen;
+    color: black;
+    /* any hovered button that is a child of an App class */
+  }
+  
+  .Cockpit button.red {
+    /* any button of class Red that is also a cihld of an App class*/
+    background-color: red;
+    color: black;
+  }
+  
+  .Cockpit button.red:hover {
+    background-color: salmon;
+  }

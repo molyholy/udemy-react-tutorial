@@ -1,0 +1,12 @@
+.Person {
+    box-shadow: 1px 1px 3px #ccc;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+@media (min-width: 500px) {
+    .Person {
+        width: 480px;
+    }
+}
